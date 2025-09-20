@@ -1,0 +1,72 @@
+/* Reset sederhana */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+/* Navigasi */
+nav {
+  background: #005bb5;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+nav a:hover {
+  background: #004080;
+}
+
+/* Konten utama */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.container h2 {
+  color: #0073e6;
+  margin-bottom: 15px;
+}
+
+.container h3 {
+  color: #005bb5;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #0073e6;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
